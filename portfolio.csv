@@ -1,0 +1,3 @@
+name,id,ISIN,type,averageBuyPrice,quantity,taxRate
+iShares MSCI Europe  EUR ACC,001,IE00B4K48X80,ETF,50.06,20,0.26
+IT BOND,002,IT0005565400,BOND,1.0,995,0.125

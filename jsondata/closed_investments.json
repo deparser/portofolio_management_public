@@ -1,0 +1,11 @@
+{
+    "002": {
+        "name": "IT BOND",
+        "investmentId": "002",
+        "averageBuyPrice": 1.0,
+        "soldQuantity": 5,
+        "averageSoldPrice": 61.25,
+        "grossProfit": 301.25,
+        "netProfit": 263.59375
+    }
+}

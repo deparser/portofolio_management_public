@@ -1,0 +1,23 @@
+[
+    {
+        "investmentId": "001",
+        "operationType": "BUY",
+        "quantity": 20,
+        "price": 50.06,
+        "date": "2021-12-06"
+    },
+    {
+        "investmentId": "002",
+        "operationType": "BUY",
+        "quantity": 1000,
+        "price": 1.0,
+        "date": "2023-11-10"
+    },
+    {
+        "investmentId": "002",
+        "operationType": "SELL",
+        "quantity": 5,
+        "price": 61.25,
+        "date": "2024-04-10"
+    }
+]

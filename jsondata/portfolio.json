@@ -1,0 +1,20 @@
+{
+    "001": {
+        "name": "iShares MSCI Europe  EUR ACC",
+        "id": "001",
+        "ISIN": "IE00B4K48X80",
+        "type": "ETF",
+        "averageBuyPrice": 50.06,
+        "quantity": 20,
+        "taxRate": 0.26
+    },
+    "002": {
+        "name": "IT BOND",
+        "id": "002",
+        "ISIN": "IT0005565400",
+        "type": "BOND",
+        "averageBuyPrice": 1.0,
+        "quantity": 995,
+        "taxRate": 0.125
+    }
+}
