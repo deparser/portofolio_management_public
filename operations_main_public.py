@@ -32,14 +32,18 @@ for file in [operationsPath]:
 invested = 23000 # somma dei bonifici
 
 # Initialize a new investment
-Investment("001", "iShares MSCI Europe  EUR ACC", "IE00B4K48X80", "ETF")
-Investment("002", "IT BOND", "IT0005565400", "BOND")
+Investment("001", "iShares MSCI World acc", "IE00B4K48X80", "ETF", ticker="SWDA.MI", expireDate=None)
+Investment("002", "IT BOND", "IT0005565400", "BOND", ticker=None, expireDate=dt.datetime(2024, 12, 10))
+Investment("003", "Apple", "US0378331005", "STOCK", ticker="1AAPL.MI", expireDate=None)
+
 
 
 # Define the operations
 Operation("001", OT.BUY, 20, 50.06, dt.datetime(2021, 12, 6), commission=0)
 Operation("002", OT.BUY, 1000, 100/100, dt.datetime(2023, 11, 10), commission=0)
 Operation("002", OT.SELL, 5, 61.25, dt.datetime(2024, 4, 10), commission=0)
+Operation("003", OT.BUY, 5, 182.35, dt.datetime(2024, 8, 10), commission=0)
+
 
 Dividend("002", 10.5, dt.datetime(2023, 1, 24))
 

@@ -19,5 +19,12 @@
         "quantity": 5,
         "price": 61.25,
         "date": "2024-04-10"
+    },
+    {
+        "investmentId": "003",
+        "operationType": "BUY",
+        "quantity": 5,
+        "price": 182.35,
+        "date": "2024-08-10"
     }
 ]

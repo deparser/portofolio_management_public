@@ -1,12 +1,14 @@
 {
     "001": {
-        "name": "iShares MSCI Europe  EUR ACC",
+        "name": "iShares MSCI World acc",
         "id": "001",
         "ISIN": "IE00B4K48X80",
         "type": "ETF",
         "averageBuyPrice": 50.06,
         "quantity": 20,
-        "taxRate": 0.26
+        "taxRate": 0.26,
+        "expireDate": null,
+        "ticker": "SWDA.MI"
     },
     "002": {
         "name": "IT BOND",
@@ -15,6 +17,19 @@
         "type": "BOND",
         "averageBuyPrice": 1.0,
         "quantity": 995,
-        "taxRate": 0.125
+        "taxRate": 0.125,
+        "expireDate": "2024-12-10",
+        "ticker": null
+    },
+    "003": {
+        "name": "Apple",
+        "id": "003",
+        "ISIN": "US0378331005",
+        "type": "STOCK",
+        "averageBuyPrice": 182.35,
+        "quantity": 5,
+        "taxRate": 0.26,
+        "expireDate": null,
+        "ticker": "1AAPL.MI"
     }
 }
